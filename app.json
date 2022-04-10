@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/tool/index",
+    "pages/user/index"
+  ],
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "selectedColor": "#417505",
+    "color": "#9b9b9b",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/nav/home-off.png",
+        "selectedIconPath": "static/images/nav/home-on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tool/index",
+        "iconPath": "static/images/nav/tool-off.png",
+        "selectedIconPath": "static/images/nav/tool-on.png",
+        "text": "工具"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "static/images/nav/my-off.png",
+        "selectedIconPath": "static/images/nav/my-on.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "無量空處",
+    "navigationBarTextStyle":"black"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

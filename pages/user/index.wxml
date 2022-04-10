@@ -1,0 +1,16 @@
+<!--pages/user/index.wxml-->
+<view class='container'>
+  <view class="user-box">
+    <view class="avatar">
+      <image src='{{userInfo.avatarUrl}}'></image>
+    </view>
+    <view class="title">登录 / 注册</view>
+    <view class="description">加入会员 尊享更多权益</view>
+    <view class="space"></view>
+    <view class="tip">登录查看更多 ></view>
+    <view class="wrapper">
+      <view class="attach">积分</view>
+      <view class="attach">优惠券</view>
+    </view>
+  </view>
+</view>
